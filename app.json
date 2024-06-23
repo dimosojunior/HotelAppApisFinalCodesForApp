@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "hotel-app",
+    "slug": "hotel-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/p3.png",
+    "userInterfaceStyle": "#233329",
+    "splash": {
+      "image": "./assets/s1.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.dimosojr.hotelapp",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/p3.png",
+        "backgroundColor": "#000000"
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "df523132-cbfb-4e63-90c6-1da0b1be59eb"
+      }
+    }
+  }
+}

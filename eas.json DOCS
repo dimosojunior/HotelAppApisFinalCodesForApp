@@ -1,0 +1,34 @@
+
+paste this in eas.json
+
+
+{
+  "build": {
+    "preview": {
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "preview2": {
+      "android": {
+        "gradleCommand": ":app:assembleRelease"
+      }
+    },
+    "preview3": {
+      "developmentClient": true
+    },
+    "production": {}
+  }
+}
+
+
+
+https://hotelappapisv1.pythonanywhere.com/Hotel/HotelInentoryFood/
+https://lisheapisapp.pythonanywhere.com/
+
+command to build
+
+https://docs.expo.dev/build-reference/apk/
+https://galaxies.dev/react-native-image-upload
+eas build -p android --profile preview
+https://chat.openai.com/?model=text-davinci-002-render-sha
